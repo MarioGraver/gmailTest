@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testGmail.GmailTest">
+      <class name="com.gmai.Testcases.VerifyLoginPages">
         <methods>
-          <include name="afterMethod"/>
-          <include name="loginMail"/>
-          <include name="beforeMethod"/>
+          <include name="verifyLogin"/>
         </methods>
-      </class> <!-- testGmail.GmailTest -->
+      </class> <!-- com.gmai.Testcases.VerifyLoginPages -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
